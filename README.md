@@ -1,10 +1,10 @@
-# CRUD - RESTFul - Banco Digital API
+# CRUD - RESTFul - API de Banco Digital
 
-**Banco Digital API** é um projeto desenvolvido como parte do desafio do Módulo 02 da Cubos Academy. Esta API oferece funcionalidades para criação, gerenciamento e realização de operações bancárias em contas bancárias virtuais.
+**API de Banco Digital** é um projeto desenvolvido como parte do desafio do Módulo 02 da Cubos Academy. Esta API oferece funcionalidades para criação, gerenciamento e realização de operações bancárias em contas bancárias virtuais.
 
 ## Principais Funcionalidades
 
-A **Banco Digital API** oferece um conjunto abrangente de funcionalidades para atender às necessidades do sistema bancário virtual:
+A **API de Banco Digital** oferece um conjunto abrangente de funcionalidades para atender às necessidades do sistema bancário virtual:
 
 - **Criação de Conta Bancária:** Esta funcionalidade permite criar uma nova conta bancária associada a um usuário, gerando um número de conta único para identificação.
 
@@ -26,7 +26,7 @@ A **Banco Digital API** oferece um conjunto abrangente de funcionalidades para a
 
 ## Rotas da API
 
-A **Banco Digital API** oferece um conjunto de rotas para atender às diversas operações bancárias e consultas disponíveis:
+A **API de Banco Digital** oferece um conjunto de rotas para atender às diversas operações bancárias e consultas disponíveis:
 
 - **POST /contas:** Utilize esta rota para criar uma nova conta bancária no sistema.
 
