@@ -2,41 +2,49 @@
 
 **Banco Digital API** é um projeto desenvolvido como parte do desafio do Módulo 02 da Cubos Academy. Esta API oferece funcionalidades para criação, gerenciamento e realização de operações bancárias em contas bancárias virtuais.
 
-## Funcionalidades Principais
+## Principais Funcionalidades
 
-A API inclui as seguintes funcionalidades:
+A **Banco Digital API** oferece um conjunto abrangente de funcionalidades para atender às necessidades do sistema bancário virtual:
 
-- **Criar Conta Bancária:** Permite a criação de uma nova conta bancária associada a um usuário, gerando um número de conta único.
+- **Criação de Conta Bancária:** Esta funcionalidade permite criar uma nova conta bancária associada a um usuário, gerando um número de conta único para identificação.
 
-- **Listar Contas Bancárias:** Recupera a lista de todas as contas bancárias registradas no sistema.
+- **Listagem de Contas Bancárias:** Recupere a lista completa de todas as contas bancárias registradas no sistema, facilitando a visualização e o gerenciamento.
 
-- **Atualizar Dados do Usuário:** Permite a atualização dos dados do usuário associado a uma conta bancária, como nome, CPF, data de nascimento, telefone, e-mail e senha.
+- **Atualização de Dados do Usuário:** Atualize os dados do usuário associado a uma conta bancária, incluindo nome, CPF, data de nascimento, telefone, e-mail e senha, proporcionando controle total sobre as informações pessoais.
 
-- **Excluir Conta Bancária:** Remove uma conta bancária e seus dados do sistema.
+- **Exclusão de Conta Bancária:** Remova uma conta bancária específica e todos os seus dados do sistema com facilidade.
 
-- **Depositar:** Realiza um depósito em uma conta bancária especificada.
+- **Depósito de Fundos:** Realize depósitos em uma conta bancária especificada, adicionando fundos à conta de forma simples e segura.
 
-- **Sacar:** Permite o saque de fundos de uma conta bancária, desde que haja saldo disponível.
+- **Saque de Fundos:** Permita o saque de fundos de uma conta bancária, desde que haja saldo disponível, oferecendo flexibilidade nas operações financeiras.
 
-- **Transferir:** Realiza a transferência de fundos entre duas contas bancárias.
+- **Transferência de Fundos:** Facilite a transferência de fundos entre duas contas bancárias, possibilitando transações eficientes entre contas de diferentes titulares.
 
-- **Consultar Saldo:** Retorna o saldo atual disponível em uma conta bancária.
+- **Consulta de Saldo:** Obtenha o saldo atual disponível em uma conta bancária de maneira rápida e conveniente.
 
-- **Emitir Extrato Bancário:** Gera um extrato detalhado das transações realizadas em uma conta bancária.
+- **Emissão de Extrato Bancário:** Gere um extrato detalhado das transações realizadas em uma conta bancária, fornecendo um histórico completo das operações financeiras.
 
 ## Rotas da API
 
-A API disponibiliza as seguintes rotas:
+A **Banco Digital API** oferece um conjunto de rotas para atender às diversas operações bancárias e consultas disponíveis:
 
-- `POST /contas`: Cria uma nova conta bancária.
-- `GET /contas`: Retorna a lista de todas as contas bancárias.
-- `PUT /contas/:numero/usuario`: Atualiza os dados do usuário associado a uma conta bancária.
-- `DELETE /contas/:numero`: Exclui uma conta bancária.
-- `POST /transacoes/depositar`: Realiza um depósito em uma conta bancária.
-- `POST /transacoes/sacar`: Permite o saque de fundos de uma conta bancária.
-- `POST /transacoes/transferir`: Realiza a transferência de fundos entre duas contas bancárias.
-- `GET /contas/saldo`: Consulta o saldo disponível em uma conta bancária.
-- `GET /contas/extrato`: Emite um extrato bancário das transações realizadas em uma conta.
+- **POST /contas:** Utilize esta rota para criar uma nova conta bancária no sistema.
+
+- **GET /contas:** Acesse esta rota para obter a lista completa de todas as contas bancárias registradas.
+
+- **PUT /contas/:numero/usuario:** Atualize os dados do usuário associado a uma conta bancária por meio desta rota, permitindo a atualização de informações como nome, CPF, data de nascimento, telefone, e-mail e senha.
+
+- **DELETE /contas/:numero:** Esta rota permite a exclusão de uma conta bancária específica do sistema.
+
+- **POST /transacoes/depositar:** Realize um depósito em uma conta bancária utilizando esta rota para adicionar fundos à conta desejada.
+
+- **POST /transacoes/sacar:** Utilize esta rota para efetuar o saque de fundos de uma conta bancária, desde que haja saldo disponível para a operação.
+
+- **POST /transacoes/transferir:** Realize a transferência de fundos entre duas contas bancárias por meio desta rota, facilitando transações entre contas de diferentes titulares.
+
+- **GET /contas/saldo:** Consulte o saldo disponível em uma conta bancária acessando esta rota para verificar o valor atual da conta.
+
+- **GET /contas/extrato:** Gere um extrato bancário detalhado das transações realizadas em uma conta bancária através desta rota, permitindo uma visão completa do histórico de operações.
 
 ## Como Executar
 
